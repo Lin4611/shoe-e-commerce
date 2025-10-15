@@ -15,7 +15,7 @@
     .navbar-start{@apply flex flex-shrink-0 items-center gap-12 }
     .rightside-navbar{@apply flex items-center gap-2}
     .navbar-header-link{@apply flex-shrink-0 gap-5 flex max-sm:hidden}
-    .link-text{@apply text-label-md tracking-default leading-relaxed hover:bg-white/5 hover:text-white}
+    .link-text{@apply text-label-md tracking-default leading-relaxed hover:bg-white/5 hover:text-primary-400}
     .client-icon{@apply flex h-[48px] w-[48px] items-center justify-center rounded-full hover:bg-gray-100 transition}
 
     .logo-pic{@apply w-[129px] h-auto flex-shrink-0}

@@ -4,21 +4,21 @@ const collectionList=[
         size:38,
         color:'Navy',
         price:'NT$2,600',
-        imgUrl:'/img/choose-blue.png'
+        imgUrl:'img/choose-blue.png'
     },
     {
         title:'BOOMLOK',
         size:38,
         color:'White',
         price:'NT$3,200',
-        imgUrl:'/img/best-4.png'
+        imgUrl:'img/best-4.png'
     },
     {
         title:'MELTY KISS',
         size:38,
         color:'Violet',
         price:'NT$4,000',
-        imgUrl:'/img/best-1.png'
+        imgUrl:'img/best-1.png'
     },
 ]
 export default function Collection(){
@@ -27,12 +27,12 @@ export default function Collection(){
             <div className="collection-list-container">
                 <div className="collection-list-title-container">
                     <article className='w-[40px] h-[40px] flex items-center justify-center rounded-full bg-primary-300 '>
-                        <img src="/img/collection-icon.svg" alt="" />
+                        <img src={`${import.meta.env.BASE_URL}img/collection-icon.svg`} alt="" />
                     </article>
                     <h2 className="text-h3 font-bold leading-tight tracking-default max-sm:text-h4">我的收藏</h2>
                 </div>
                 <div className="open-time-banner">
-                    <img src="/img/truck.svg" alt="" className='w-[24px] h-[24px]'/>
+                    <img src={`${import.meta.env.BASE_URL}img/truck.svg`} alt="" className='w-[24px] h-[24px]'/>
                     <span className='text-label-md text-primary-400 leading-relaxed tracking-default max-sm:whitespace-pre-line'>
                         {`門市營業時間：
                         週一至週五 10:00 - 22:00`}
@@ -41,7 +41,7 @@ export default function Collection(){
                 {   
                     collectionList.map((p,index)=>(
                         <article className='collection-card' key={index}>
-                            <img src={p.imgUrl} alt="" className='w-[120px] h-auto aspect-square object-cover' />
+                            <img src={`${import.meta.env.BASE_URL}${p.imgUrl}`} alt="" className='w-[120px] h-auto aspect-square object-cover' />
                             <div className="collection-card-text">
                                 <h5 className='text-h5 font-bold leading-relaxed tracking-default'>{p.title}</h5>
                                 <div className="text-container">

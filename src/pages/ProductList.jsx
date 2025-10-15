@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import {Link} from 'react-router-dom';
 import Products from '../data/Products';
 const Mobile_items=10;
 const Desktop_items=9;
@@ -28,7 +29,7 @@ export default function ProductList(){
             <div className="content-text">
                 <div className="category-container">
                     <div className="category-text">
-                        <span className='text-label-md text-neutral-600 max-sm:text-label-sm'>首頁</span>
+                        <Link to="/" className='text-label-md text-neutral-600 hover:text-primary-400 max-sm:text-label-sm'>首頁</Link>
                         <span className='text-neutral-300 font-bold'>/</span>
                         <span className='text-label-md text-neutral-600 max-sm:text-label-sm'>女鞋</span>
                         <span className='text-neutral-300 font-bold'>/</span>
