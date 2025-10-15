@@ -6,7 +6,11 @@ export default function Login(){
     return(
         <div className="mx-auto">
             <div className="login-container">
-                <article className="leftside-pic max-sm:bg-[url('/img/login-sm.png')]">
+                <article className="leftside-pic bg-hero]"
+                style={{ 
+                '--hero-desktop': `url(${import.meta.env.BASE_URL}img/login-bg.png)`,
+                '--hero-mobile' : `url(${import.meta.env.BASE_URL}img/login-sm.png)` }}
+                >
                     <img src={`${import.meta.env.BASE_URL}img/banner-sm.png`} alt="banner" className='w-full h-full object-cover rounded-xl max-sm:hidden'/>
                     <span className='text-display-2 text-white leading-tight tracking-default font-bold absolute top-[71px] left-10 max-sm:hidden'>URBNSTEP</span>
                     <span className='text-h4 font-bold leading-tight tracking-default text-neutral-500 absolute top-36 left-[125px] max-sm:hidden'>Your Step, Your Statement</span>

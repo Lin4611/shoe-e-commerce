@@ -7,7 +7,7 @@
     .leftside-pic{@apply max-w-[40%] h-[589px] relative 
         max-sm:bg-cover max-sm:h-[240px] max-sm:max-w-full
     }
-    .rightside-container{@apply max-w-[57%] w-full bg-[url('/img/login-bg.png')] bg-cover bg-center h-auto rounded-xl flex flex-col items-center py-30 px-20 gap-8
+    .rightside-container{@apply max-w-[57%] w-full bg-cover bg-center h-auto rounded-xl flex flex-col items-center py-30 px-20 gap-8
         max-sm:bg-none max-sm:max-w-full max-sm:px-3 max-sm:py-8 max-sm:bg-white
     }
 
