@@ -1,0 +1,15 @@
+
+
+@layer components{
+
+    .collection-list-container{@apply max-w-[34%]  flex flex-col gap-8 mx-auto items-center 
+        max-sm:max-w-full max-sm:px-3 max-sm:gap-6
+    }
+    .collection-list-title-container{@apply flex gap-4 justify-center items-center}
+    .open-time-banner{@apply w-full h-[56px] flex bg-primary-100 items-center gap-3 p-4 max-sm:h-[80px]}
+    .collection-card{@apply w-full flex gap-4 pb-8 border-b-1 border-neutral-300}
+    .collection-card-text{@apply flex flex-col gap-2 w-full}
+    .text-container{@apply flex gap-3}
+    .btn-quick-try{@apply w-[182px] h-[48px] rounded-sm bg-neutral-900 text-neutral-0 leading-relaxed tracking-default}
+
+}

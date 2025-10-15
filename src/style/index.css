@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap');
+@import "tailwindcss";
+@theme {
+  --font-sans: "Noto Sans TC","PingFang TC","Microsoft JhengHei","Heiti TC",
+               ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+               "Helvetica Neue", Arial, "Noto Sans",
+               "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+@layer base {
+  html, body { @apply font-sans text-neutral-900; }
+}
+
+@layer utilities {
+  .bg-hero { background-image: var(--hero-desktop); }
+  @media (max-width: 640px) {       /* sm 以下 */
+    .bg-hero { background-image: var(--hero-mobile); }
+  }
+}
+
+
+@import "./common/_colors.css";
+@import "./common/_font-size.css";
+@import "./common/_btn-style.css";
+@import "./header-footer/header-footer.css";
+@import "./home/home-style.css";
+@import "./brandstory/brandstory-style.css";
+@import "./collection/collection-style.css";
+@import "./login-register/login-register-style.css";
+@import "./product-detail/product-detail-style.css";
+@import "./product-list/product-list-style.css";

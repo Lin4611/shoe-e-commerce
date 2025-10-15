@@ -1,0 +1,37 @@
+@theme {
+    /* Primary brand colors */
+    --color-primary-100: #F5FEE7;
+    --color-primary-200: #E8FEC5;
+    --color-primary-300: #C0FA73;
+    --color-primary-400: #57A203;
+    --color-primary-500: #477A11;
+
+    /* Neutral grayscale */
+    --color-neutral-0: #FFFFFF;
+    --color-neutral-100: #F8F9FA;
+    --color-neutral-200: #DEE2E6;
+    --color-neutral-300: #DEE2E6;
+    --color-neutral-400: #CED4DA;
+    --color-neutral-500: #ADB5BD;
+    --color-neutral-600: #6C757D;
+    --color-neutral-700: #495057;
+    --color-neutral-800: #343A40;
+    --color-neutral-900: #212529;
+
+    /* State colors */
+    --color-danger-100: #FCF1F1;
+    --color-danger-200: #EBA7A7;
+    --color-danger-300: #D74F4F;
+
+    --color-success-100: #EFF8F4;
+    --color-success-200: #9AD1BA;
+    --color-success-300: #36A375;
+
+    --color-warning-100: #FEF6EC;
+    --color-warning-200: #F9C588;
+    --color-warning-300: #F38B12;
+
+    --color-info-100: #EEF5FC;
+    --color-info-200: #97C3ED;
+    --color-info-300: #3087DB;
+  }

@@ -1,0 +1,43 @@
+@layer components{
+
+    .content-productdetail-container{@apply max-w-[1296px] flex py-16 mx-auto gap-6 max-sm:flex-col max-sm:p-0}
+    .leftside-pic-container{@apply max-w-[58%] flex flex-wrap gap-2 max-sm:hidden}
+    .leftside-pic-container-phone{@apply hidden max-sm:block overflow-x-auto overflow-y-hidden w-full}
+    .scroll-pic-container{@apply max-sm:flex gap-1}
+    
+    .rightside-detail-container{@apply max-w-[41%] w-full flex flex-col gap-8 max-sm:max-w-full max-sm:px-3}
+    /* 分類標籤的樣式 */
+    .rightside-detail-top{@apply flex flex-col w-full gap-4 }
+    .category-container{@apply w-full flex flex-col gap-3}
+    .category-txt{@apply flex gap-3 w-full}
+    .rightside-detail-price-container {@apply flex items-center gap-2}
+    .rightside-detail-text{@apply flex flex-col gap-3}
+
+    .rightside-choose-part{@apply w-full flex flex-col gap-12 max-sm:gap-6}
+
+    .rightside-choose-part-top{@apply flex flex-col gap-8 }
+    .rightside-choose-part-top-color{@apply flex flex-col gap-2}
+
+    .rightside-choose-part-pic-container{@apply flex w-full gap-2}
+    .rightside-choose-part-pic-card{@apply flex flex-col w-[64px] h-[94px] gap-1 justify-center items-center}
+
+    .rightside-choose-part-size{@apply flex flex-col w-full gap-2}
+    .rightside-choose-part-size-card-container{@apply flex flex-wrap w-full gap-2}
+
+    .rightside-bottom-btns{@apply flex w-full gap-2 max-sm:flex-row-reverse}
+
+    .rightside-detail-notice-text{@apply flex w-full flex-col}
+    .notice-text-container{@apply flex w-full flex-col gap-1 py-3 border-b-1 border-neutral-300 whitespace-pre-line}
+
+    .guess-you-like-items-contanier{@apply mx-auto max-w-[1296px] w-full flex flex-col gap-4 py-12 max-sm:py-10 max-sm:px-3}
+    .guess-you-like-items-card-container{@apply w-full flex gap-6 max-sm:hidden}
+    .guess-you-like-items-card{@apply flex flex-col gap-3 max-sm:gap-4}
+    .guess-you-like-items-card-text{@apply flex flex-col gap-1}
+
+    .card-scroll{@apply max-sm:flex gap-4}
+    .guess-you-like-items-card-container-phone{@apply hidden max-sm:block overflow-x-auto overflow-y-hidden w-full}
+    /* 馬上註冊部分的樣式都相同 */
+    .add-member{@apply mx-auto h-[144px] w-full flex items-end-safe}
+    .add-member-banner{@apply h-[66%] bg-primary-200 w-full flex justify-center items-center gap-6}
+
+}

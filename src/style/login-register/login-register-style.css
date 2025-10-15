@@ -1,0 +1,27 @@
+@layer components{
+
+    .login-container{@apply max-w-[1296px] w-full mx-auto py-16 flex gap-6 
+        max-sm:flex-col max-sm:gap-0 max-sm:py-0
+    }
+
+    .leftside-pic{@apply max-w-[40%] h-[589px] relative 
+        max-sm:bg-cover max-sm:h-[240px] max-sm:max-w-full
+    }
+    .rightside-container{@apply max-w-[57%] w-full bg-[url('/img/login-bg.png')] bg-cover bg-center h-auto rounded-xl flex flex-col items-center py-30 px-20 gap-8
+        max-sm:bg-none max-sm:max-w-full max-sm:px-3 max-sm:py-8 max-sm:bg-white
+    }
+
+    .rightside-title{@apply w-full flex justify-center}
+    .rightside-btn-container{@apply w-full h-[43px]}
+    .btn-login-option{@apply max-w-[49%] w-full h-full border-b-2 border-neutral-900 text-h6 font-bold leading-tight tracking-default 
+         hover:shadow-sm hover:transition-shadow hover:duration-300 }
+    .btn-register-option{@apply max-w-[49%] w-full h-full border-b-2 border-neutral-300 text-h6 text-neutral-600 font-bold leading-tight tracking-default 
+        active:invert
+        hover:shadow-sm hover:transition-shadow hover:duration-300
+    }
+    .sso-option-btn-cotainer{@apply w-full h-[208px] flex flex-col justify-between}
+    .sso-icon{@apply w-[40px] h-[40px] object-cover aspect-square}
+    .sso-btn{@apply w-full flex items-center gap-3 bg-white border-1 border-neutral-300 h-[64px]}    
+
+
+}

@@ -1,0 +1,46 @@
+
+@layer components{
+    
+    .text-primary{@apply text-neutral-900}
+    .text-secondary{@apply text-neutral-600}
+    .text-muted{@apply text-neutral-500}
+    .text-highlight{@apply text-primary-400}
+    .text-on.dark{@apply text-neutral-0}
+
+    .btn-default{@apply bg-primary-300 text-neutral-900 w-[115px] h-[48px] rounded-sm text-h6}
+    .btn-neutral-filled-lg-default{@apply bg-neutral-900 text-neutral-0 text-label-md rounded-sm w-[115px] h-[48px] max-sm:w-[99px] max-sm:h-[40px]}
+    .btn-neutral-filled-sm-default{@apply bg-neutral-900 text-neutral-0 text-label-md rounded-sm w-[99px] h-[40px]}
+
+    
+    .banner{@apply h-[800px] bg-cover bg-center flex items-center relative max-sm:bg-cover max-sm:h-[480px]}
+    .banner-content{@apply text-white flex flex-col gap-12 items-start absolute left-[10%] top-[36%] max-sm:gap-8}
+
+    .product-card{@apply mt-8 grid grid-cols-2 gap-x-6 gap-y-10 justify-items-stretch max-sm:px-3 max-sm:mt-6 max-sm:gap-y-6}
+    .product-title{@apply flex flex-col}
+
+    .best-card{@apply flex gap-6 mt-4 max-sm:hidden}
+    .best-card-list{@apply mx-auto max-w-[1296px] flex flex-col justify-center py-16 max-sm:py-10 px-3 gap-4}
+
+    .best-card-phone{@apply hidden max-sm:flex flex-col w-full}
+
+    .sales-banner{@apply w-full py-12}
+    .sales-banner-card{@apply bg-cover bg-center flex items-center h-[470px] max-sm:relative max-sm:overflow-hidden}
+    .sales-banner-content{@apply flex flex-col gap-12 items-center w-full}
+    .sales-banner-text{@apply flex flex-col gap-8 items-center w-[33%] max-sm:w-[95%]}
+    .sales-banner-title{@apply flex flex-col items-center gap-4 w-full} 
+    .sales-banner-main-title{@apply flex items-center w-full justify-around max-sm:flex-col}
+
+    .series-card-list{@apply mx-auto max-w-[1296px] flex flex-col justify-center py-16 gap-4 max-sm:px-3 max-sm:py-10}
+    .series-card{@apply grid grid-cols-4 gap-x-6 max-sm:grid-cols-2 gap-3}
+
+    .ootd-card-list{@apply mx-auto max-w-[1296px] flex flex-col justify-center py-16 gap-4 max-sm:px-3 max-sm:py-10}
+    .ootd-card{@apply grid grid-cols-6 grid-rows-3 gap-2 max-sm:hidden}
+
+    .ootd-card-phone{@apply hidden max-sm:block overflow-x-auto overflow-y-hidden w-full}
+    .ootd-card-phone-scroll{@apply max-sm:flex gap-4}
+
+    .add-member{@apply mx-auto h-[144px] w-full flex items-end-safe}
+    .add-member-banner{@apply h-[66%] bg-primary-200 w-full flex justify-center items-center gap-6}
+    .content{@apply mx-auto w-full overflow-x-hidden}
+
+}

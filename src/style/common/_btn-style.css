@@ -1,0 +1,18 @@
+@layer components{
+     .btn-primary-lg-left-icon{@apply rounded-sm bg-primary-300 text-label-md w-[143px] h-[48px] hover:text-primary-500 focus:shadow-primary-300;}
+     .btn-option-default{@apply w-[160px] h-[48px] border-neutral-300 border-1 bg-neutral-0 rounded-sm text-center leading-relaxed tracking-default 
+          hover:border-neutral-600
+     }
+     .btn-option-selected{@apply w-[160px] h-[48px] border-neutral-900 border-1 bg-neutral-0 rounded-sm text-center leading-relaxed tracking-default}
+     .btn-option-disabled{@apply w-[160px] h-[48px] border-neutral-300 border-1 bg-neutral-0 rounded-sm text-center leading-relaxed tracking-default 
+          disabled:opacity-40
+     }
+     .btn-add-like-default{@apply w-[48%] h-[48px] rounded-sm border-1 border-neutral-900 bg-neutral-0 flex justify-center items-center gap-2
+          hover:invert transition
+          max-sm:w-[48px] max-sm:h-[48px] max-sm:border-none max-sm:hover:invert
+     }
+     .btn-reserve{@apply w-[48%] h-[48px] bg-neutral-900 rounded-sm flex justify-center items-center gap-2 text-neutral-0 
+          hover:bg-neutral-600 transition 
+          max-sm:w-[85%]
+     }
+}
