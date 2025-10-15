@@ -7,7 +7,7 @@ export default function Login(){
         <div className="mx-auto">
             <div className="login-container">
                 <article className="leftside-pic max-sm:bg-[url('/img/login-sm.png')]">
-                    <img src="/img/banner-sm.png" alt="banner" className='w-full h-full object-cover rounded-xl max-sm:hidden'/>
+                    <img src={`${import.meta.env.BASE_URL}img/banner-sm.png`} alt="banner" className='w-full h-full object-cover rounded-xl max-sm:hidden'/>
                     <span className='text-display-2 text-white leading-tight tracking-default font-bold absolute top-[71px] left-10 max-sm:hidden'>URBNSTEP</span>
                     <span className='text-h4 font-bold leading-tight tracking-default text-neutral-500 absolute top-36 left-[125px] max-sm:hidden'>Your Step, Your Statement</span>
                 </article>
@@ -21,15 +21,15 @@ export default function Login(){
                     </div>
                     <div className="sso-option-btn-cotainer">
                         <button type="button" className='sso-btn'>
-                            <img src="/img/facebook.svg" alt="facebook"/>
+                            <img src={`${import.meta.env.BASE_URL}img/facebook.svg`} alt="facebook"/>
                             <span className='text-body-md font-normal leading-relaxed tracking-default'>Facebook 登入</span>
                         </button>
                         <button type="button" className='sso-btn'>
-                            <img src="/img/apple.svg" alt="apple"/>
+                            <img src={`${import.meta.env.BASE_URL}img/apple.svg`} alt="apple"/>
                             <span className='text-body-md font-normal leading-relaxed tracking-default'>Apple 登入</span>
                         </button>
                         <button type="button"  className='sso-btn'>
-                            <img src="/img/google.svg" alt="google"/>
+                            <img src={`${import.meta.env.BASE_URL}img/google.svg`} alt="google"/>
                             <span className='text-body-md font-normal leading-relaxed tracking-default'>Google 登入</span>
                         </button>
                     </div>
